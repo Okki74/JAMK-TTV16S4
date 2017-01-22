@@ -12,7 +12,7 @@ namespace Teht_01
         {
             Kiuas harvia = new Kiuas();
             harvia.KiuasOn();
-            harvia.Moiseture = 50;
+            harvia.Moiseture = 60;
             harvia.Temperature = 70;
             Console.WriteLine(harvia.OnOff);
             Console.WriteLine(harvia.Moiseture);
