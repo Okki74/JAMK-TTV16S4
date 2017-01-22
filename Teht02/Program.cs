@@ -22,7 +22,7 @@ namespace Teht02
     {
         static void Main(string[] args)
         {
-            //WasingMa chineshit = new WasingMa();
+            //WasingMa chinese = new WasingMa();
             
             WasingMa upo = new WasingMa(40, 1200, 60);
             upo.OnOff = true;

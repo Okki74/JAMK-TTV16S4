@@ -52,7 +52,7 @@ namespace Teht02
         } 
         public void Print()
         {
-            Console.WriteLine("Vedenlämpötila: " + WatherTemp);
+            Console.WriteLine("Vedenlämpötila: " + WatherTemp); // Tehtävän annossa sanottu Console....
             Console.WriteLine("Linkous: " + Speed);
             Console.WriteLine("Ajastin : " + Time);
             Console.WriteLine("Ohjelma numero " + ProgNum);
