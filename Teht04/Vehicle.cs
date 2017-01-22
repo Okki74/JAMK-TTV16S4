@@ -20,9 +20,7 @@ namespace Teht04
         }
     public override string ToString()
         {
-            //string str = string.Format(Name);
-            //return str;
-            //return "Vechile " + Name + " " + Tyres+ " "+Speed;
+           
             return ""+Name+""+Tyres+""+Speed;
         }
     }
