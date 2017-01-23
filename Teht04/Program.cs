@@ -24,13 +24,14 @@ namespace Teht04
     {
         static void Main(string[] args)
         {
+            string str;
             Vehicle car = new Vehicle();
             car.Name = "Saab";
             car.Speed = 100;
             car.Tyres = 5;
             car.PrintData();
             Console.ReadKey();
-            string str=car.ToString();
+            str=car.ToString();
             Console.WriteLine(str);
             Console.ReadKey();
             car.Speed = 149;
