@@ -8,8 +8,8 @@ namespace teht03
 {
     class Boss:Employee
     {
-        private string car; //{ get; set; }
-    private int bonus; //{ get; set; }
+        private string car; 
+        private int bonus; 
 
         public string Car
         {
