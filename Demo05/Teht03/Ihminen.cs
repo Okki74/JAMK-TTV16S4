@@ -23,7 +23,8 @@ namespace Teht03
             get { return pituus; }
             set { pituus = value; }
         }
-        public string Nimi{
+        public string Nimi
+        {
             get { return nimi; }
             set { nimi = value; }
         }
