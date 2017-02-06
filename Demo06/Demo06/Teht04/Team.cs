@@ -58,10 +58,10 @@ namespace Teht04
         {
             Players.Add(_player);
         }
-        public void RemovePlayer(string _name)
+        public void RemovePlayer(string _firstname, string _lastname)
         {
            
-            Players.RemoveAll(p => p.FirstName == _name);
+            Players.RemoveAll(p => p.FirstName == _firstname && p.LastName==_lastname);
            
         }
         public override string ToString()

@@ -27,7 +27,7 @@ namespace Teht04
             jyp.AddPlayer(new Player("Veini", "Vehvilainen", 19, 1));
             Console.Write(jyp.ToString());
             Console.ReadKey();
-            jyp.RemovePlayer("Veini");
+            jyp.RemovePlayer("Veini", "Vehvilainen");
             Console.Write(jyp.ToString());
             Console.ReadKey();
         }
