@@ -17,9 +17,7 @@ namespace teht05.Tests
             // arrange
             double[] taul = { 4.0, 5,};
             double expected = 9;
-            //double[] taul = { };
-            //double expected = 0;
-            //act
+            
             double actual = ArrayCalcs.Sum(taul);
             // assert
             Assert.AreEqual(expected,actual);
