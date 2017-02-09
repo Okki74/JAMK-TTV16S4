@@ -8,13 +8,13 @@ namespace Teht06
 {
     class Player
     {
-        public int Number;
-        public int Goal;
-        public int Pass;
-        public String Team;
-        public String Place;
-        public String Name;
-        public void SetPlayer(int number, string name, string team, string place)
+        public int Number { get; set; }
+        public int Goal { get; set; }
+        public int Pass { get; set; }
+        public String Team { get; set; }
+        public String Place { get; set; }
+        public String Name { get; set; }
+        public  Player(int number, string name, string team, string place)
         {
             Number = number;
             Name = name;
